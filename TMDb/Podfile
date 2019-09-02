@@ -1,0 +1,32 @@
+platform :ios, '11.2'
+
+# Pods for TMDb
+def shared_pods
+    pod 'Anchors'
+    pod 'ReachabilitySwift'
+    pod 'SDWebImage'
+end
+
+target 'TMDb' do
+    use_frameworks!
+    shared_pods
+
+    plugin 'cocoapods-keys', {
+        :project => "TMDb",
+        :target => "TMDb",
+        :keys => [
+        "PublicAPIKey"
+        ]
+    }
+
+    target 'UpcomingMovies' do
+      inherit! :search_paths
+    end
+
+    target 'TMDbTests' do
+      inherit! :search_paths
+      # Pods for testing
+      pod 'Quick'
+      pod 'Nimble'
+    end
+end

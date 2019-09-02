@@ -1,0 +1,41 @@
+PODS:
+  - Anchors (2.5.0)
+  - Keys (1.0.1)
+  - Nimble (8.0.2)
+  - Quick (2.1.0)
+  - ReachabilitySwift (4.3.1)
+  - SDWebImage (5.1.0):
+    - SDWebImage/Core (= 5.1.0)
+  - SDWebImage/Core (5.1.0)
+
+DEPENDENCIES:
+  - Anchors
+  - Keys (from `Pods/CocoaPodsKeys`)
+  - Nimble
+  - Quick
+  - ReachabilitySwift
+  - SDWebImage
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Anchors
+    - Nimble
+    - Quick
+    - ReachabilitySwift
+    - SDWebImage
+
+EXTERNAL SOURCES:
+  Keys:
+    :path: Pods/CocoaPodsKeys
+
+SPEC CHECKSUMS:
+  Anchors: c039992ebab2fa53deccac429031a46debfbdc5a
+  Keys: a576f4c9c1c641ca913a959a9c62ed3f215a8de9
+  Nimble: 622629381bda1dd5678162f21f1368cec7cbba60
+  Quick: 4be43f6634acfa727dd106bdf3929ce125ffa79d
+  ReachabilitySwift: 4032e2f59586e11e3b0ebe15b167abdd587a388b
+  SDWebImage: fb387001955223213dde14bc08c8b73f371f8d8f
+
+PODFILE CHECKSUM: f858aea9153354d645db80cf210f50786b4fcdf4
+
+COCOAPODS: 1.6.2

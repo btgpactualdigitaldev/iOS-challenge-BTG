@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites name='TMDbTests.xctest' tests='9' failures='0'>
+  <testsuite name='TMDbTests.HomeDataSourceSpec' tests='8' failures='0'>
+    <testcase classname='TMDbTests.HomeDataSourceSpec' name='Home_DataSource__Data_source_in_normal_layout__Should_return_the_isSearchLayout_flag_as_FALSE' time='0.010'/>
+    <testcase classname='TMDbTests.HomeDataSourceSpec' name='Home_DataSource__Data_source_in_normal_layout__Should_return_data_enum_type_as__full' time='0.004'/>
+    <testcase classname='TMDbTests.HomeDataSourceSpec' name='Home_DataSource__Data_source_in_normal_layout__Should_return_2_sections' time='0.004'/>
+    <testcase classname='TMDbTests.HomeDataSourceSpec' name='Home_DataSource__Data_source_in_normal_layout__Should_return_1_item_for_section_0' time='0.004'/>
+    <testcase classname='TMDbTests.HomeDataSourceSpec' name='Home_DataSource__Data_source_in_normal_layout__Should_return_5_items_for_section_1' time='0.004'/>
+    <testcase classname='TMDbTests.HomeDataSourceSpec' name='Home_DataSource__Data_source_in_normal_layout__Should_return_10_items_for_section_1_when_receive_data_from_pagination' time='0.008'/>
+    <testcase classname='TMDbTests.HomeDataSourceSpec' name='Home_DataSource__Data_source_in_normal_layout__Should_return_0_items_when_remove_all_data' time='0.005'/>
+    <testcase classname='TMDbTests.HomeDataSourceSpec' name='Home_DataSource__Data_source_in_normal_layout__Should_update_data_with_list_of_favorites' time='0.004'/>
+  </testsuite>
+  <testsuite name='TMDbTests.MovieServiceSpec' tests='1' failures='0'>
+    <testcase classname='TMDbTests.MovieServiceSpec' name='Movie_Service__Route_to_get_Movies__Should_have_the_correct_url_contruction_with_ordering_by_recently_modified' time='0.002'/>
+  </testsuite>
+</testsuites>

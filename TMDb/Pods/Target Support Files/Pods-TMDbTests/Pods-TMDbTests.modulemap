@@ -1,0 +1,6 @@
+framework module Pods_TMDbTests {
+  umbrella header "Pods-TMDbTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Anchors {
+  umbrella header "Anchors-umbrella.h"
+
+  export *
+  module * { export * }
+}
